@@ -1,5 +1,42 @@
 .main{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("C:\Users\Nilkul\Desktop\fantasy-3077928_1280.jpg");
+    position: relative;
+    opacity: 0.9;
+}
+.login{
+    position:absolute;
+    box-shadow: 1px 2px 9px 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-decoration: underline;
+    opacity: 1;
+}
+.field1{
+    width: 95%;
+}
+.field2{
+    width: 95%;
+}
+.btn{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    cursor: pointer;
+}
+.links{
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
 }
