@@ -1,0 +1,21 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: relative;
+}
+.sigin{
+    position: absolute;
+    box-shadow: 1px 2px 9px 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    /* margin: 10px; */
+    font-size: 25px;
+    text-decoration: underline;
+    width: 100%;
+}
